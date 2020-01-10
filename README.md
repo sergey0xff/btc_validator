@@ -11,7 +11,7 @@
 
 ## Usage 
 ```python
-from btc_validator_ import is_valid_btc_address
+from btc_validator import is_valid_btc_address
 
 is_valid_btc_address(
     'bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kv8f3t4'
