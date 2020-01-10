@@ -184,7 +184,10 @@ def is_valid_btc_address(
             ):
                 return False
 
-        h = _base58_decode(address)
+        try:
+            h = _base58_decode(address)
+        except ValueError:
+            return False
 
         if len(h) != 25:
             return False

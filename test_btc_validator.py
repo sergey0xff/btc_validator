@@ -36,7 +36,8 @@ def test_testnet_address(btc_address):
         '',
         'tb1qw508d6qejxtdg4y5r3zarvary0c5xw7kxpjz',
         'tb1508d6qejxtdg4y5r3zarvary0c5xw7kxpjzsx',
-        'bc1qrp33g0q5c5txsp9arysrx4k6zdk5s4nce4xj0gdcccefvpysxf3qccfmv3'
+        'bc1qrp33g0q5c5txsp9arysrx4k6zdk5s4nce4xj0gdcccefvpysxf3qccfmv3',
+        '1A1z[1eP5QGefi2DMPTfTL5SLmv7DivfNa',
     ]
 )
 @pytest.mark.parametrize(
