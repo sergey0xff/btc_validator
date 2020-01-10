@@ -9,6 +9,11 @@
 * Segwit
 * Legacy
 
+## Installation
+```
+pip3 install git+https://github.com/sergey-tikhonov/btc_validator
+```
+
 ## Usage 
 ```python
 from btc_validator import is_valid_btc_address
