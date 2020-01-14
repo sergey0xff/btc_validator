@@ -2,6 +2,7 @@
 * Supports new and old addresses
 * Based on `pybtc` and `base58` packages
 * Requires no dependencies 
+* Fixes bugs in `pybtc` implementation
 
 ## Supported addresses
 * Mainnet 
